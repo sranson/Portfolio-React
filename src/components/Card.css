@@ -1,0 +1,25 @@
+
+.customCenterContent {
+    display: flex;
+    justify-content: center;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+}
+
+.paddingTop {
+    padding-top: 8%;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+
+.circle {
+    height: 350px;
+    width: 350px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;   
+}
