@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Food from '../Assets/Images/food.jpg';
 import CoHoots from '../Assets/Images/CoHootsStock.jpg';
 import Blog from '../Assets/Images/blogPhoto.jpg';
-import './Projects.css'
+import '../Assets/Styles/Projects.css';
 
 
 const Projects = () => {

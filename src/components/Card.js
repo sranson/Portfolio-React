@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css';
+import '../Assets/Styles/Card.css';
 import Salome from '../Assets/Images/Salome.jpg';
 import { BackgroundColor } from 'jest-matcher-utils/node_modules/chalk';
 
