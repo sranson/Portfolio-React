@@ -1,0 +1,6 @@
+.customCenterContent {
+    display: flex;
+    justify-content: center;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+}
