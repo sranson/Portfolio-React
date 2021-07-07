@@ -2,17 +2,28 @@ import React from 'react';
 import reactDom from 'react-dom';
 import Header from './Header';
 import Card from './Card';
+import Projects from './Projects';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
-class App extends React.Component {
-    render() {
-        return(
+const App = () => {
+    return(
+        <Router>
             <div>
                 <Header />
-                <Card />
+                <div>
+                    <Switch>
+                        <Route exact path="/">
+                            <Card />
+                        </Route>
+                        <Route exact path="/projects">
+                            <Projects />
+                        </Route>
+                    </Switch>
+                </div>
             </div>
-        )
-    }
+        </Router>
+    )
 }
 
 
