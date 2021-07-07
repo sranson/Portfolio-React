@@ -1,6 +1,30 @@
-.customCenterContent {
+.projectCenterContent {
     display: flex;
     justify-content: center;
     background-color: #F8F9FA;
     border-radius: 10px;
+    margin-top: 5%;
 }
+
+#MyWork h1 {
+    margin-bottom: 5%;
+    margin-top: 5%;
+   }
+
+
+#MyWork section {
+    padding-bottom: 5%;
+}
+
+.cardSize {
+    width: 16rem;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+
+.zoom:hover {
+    transform: scale(1.1);
+  }
