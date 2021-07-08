@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.148f37f6.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.a78b6bd7.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.a78b6bd7.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.f022346f.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.f022346f.js.map",
+    "static/js/2.f890cacb.chunk.js": "/portfolio-react/static/js/2.f890cacb.chunk.js",
+    "static/js/2.f890cacb.chunk.js.map": "/portfolio-react/static/js/2.f890cacb.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/main.148f37f6.chunk.css.map": "/portfolio-react/static/css/main.148f37f6.chunk.css.map",
+    "static/js/2.f890cacb.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.f890cacb.chunk.js.LICENSE.txt",
+    "static/media/CoHoots.95a2751b.png": "/portfolio-react/static/media/CoHoots.95a2751b.png",
+    "static/media/CoHootsStock.da8c5914.jpg": "/portfolio-react/static/media/CoHootsStock.da8c5914.jpg",
+    "static/media/DeveloperBlog.a3dacfb0.png": "/portfolio-react/static/media/DeveloperBlog.a3dacfb0.png",
+    "static/media/Salome.0fc4beea.jpg": "/portfolio-react/static/media/Salome.0fc4beea.jpg",
+    "static/media/SalomeRansonResume.34bcb755.pdf": "/portfolio-react/static/media/SalomeRansonResume.34bcb755.pdf",
+    "static/media/blogPhoto.48dcc540.jpg": "/portfolio-react/static/media/blogPhoto.48dcc540.jpg",
+    "static/media/fitnessTrackerSS.4c4b7cd8.png": "/portfolio-react/static/media/fitnessTrackerSS.4c4b7cd8.png",
+    "static/media/food.804b0f2b.jpg": "/portfolio-react/static/media/food.804b0f2b.jpg",
+    "static/media/recipes.d3c5819f.png": "/portfolio-react/static/media/recipes.d3c5819f.png",
+    "static/media/searchTool.a066ffd6.jpg": "/portfolio-react/static/media/searchTool.a066ffd6.jpg",
+    "static/media/searchTool.ec4ee6b1.png": "/portfolio-react/static/media/searchTool.ec4ee6b1.png",
+    "static/media/weatherSS.c8b814e3.png": "/portfolio-react/static/media/weatherSS.c8b814e3.png",
+    "static/media/weatherStock.ce5034c0.jpg": "/portfolio-react/static/media/weatherStock.ce5034c0.jpg",
+    "static/media/workoutStock.78c25f02.jpg": "/portfolio-react/static/media/workoutStock.78c25f02.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f022346f.js",
+    "static/js/2.f890cacb.chunk.js",
+    "static/css/main.148f37f6.chunk.css",
+    "static/js/main.a78b6bd7.chunk.js"
+  ]
+}
