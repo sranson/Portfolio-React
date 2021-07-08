@@ -3,4 +3,4 @@
 # Salome Ranson Portfolio
 
 ## Description
-Personal Portfolio re-built from HTML/ CSS using React 
+Personal Portfolio previously built using HTML/ CSS and re-built using React 
