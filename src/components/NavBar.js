@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Assets/Styles/Header.css';
+import '../Assets/Styles/NavBar.css';
 
-const Header = () => {
+const NavBar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark navbar-default">
@@ -36,4 +36,4 @@ const Header = () => {
 }
 
 
-export default Header;
+export default NavBar;

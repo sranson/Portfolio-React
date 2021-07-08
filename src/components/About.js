@@ -1,11 +1,11 @@
 import React from 'react';
-import '../Assets/Styles/Card.css';
+import '../Assets/Styles/About.css';
 import Salome from '../Assets/Images/Salome.jpg';
-import { BackgroundColor } from 'jest-matcher-utils/node_modules/chalk';
 
 
 
-const Card = () => {
+
+const About = () => {
     return (
         <div style={{ paddingTop: "4%" }}>
             <main className="container">
@@ -35,4 +35,4 @@ const Card = () => {
 
 
 
-export default Card;
+export default About;

@@ -1,7 +1,7 @@
 import React from 'react';
 import reactDom from 'react-dom';
-import Header from './Header';
-import Card from './Card';
+import NavBar from './NavBar';
+import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -11,11 +11,11 @@ const App = () => {
     return(
         <Router>
             <div>
-                <Header />
+                <NavBar />
                 <div>
                     <Switch>
                         <Route exact path="/">
-                            <Card />
+                            <About />
                         </Route>
                         <Route exact path="/projects">
                             <Projects />
