@@ -9,6 +9,8 @@ import searchTool from '../Assets/Images/searchTool.jpg';
 import searchToolSS from '../Assets/Images/Screenshots/searchTool.png';
 import workout from '../Assets/Images/workoutStock.jpg'
 import workoutSS from '../Assets/Images/Screenshots/fitnessTrackerSS.png';
+import weatherSS from '../Assets/Images/Screenshots/weatherSS.png'
+import weatherStock from '../Assets/Images/weatherStock.jpg';
 import '../Assets/Styles/Projects.css';
 
 
@@ -86,17 +88,17 @@ const Projects = () => {
                     </section>
 
 
-                    {/* <section className="col-md-4 col-lg-4 d-flex justify-content-center zoom">
+                    <section className="col-md-4 col-lg-4 d-flex justify-content-center zoom">
                         <div className="card cardSize">
-                            <a href="https://developer-blog-app.herokuapp.com/" target="_blank" rel="noreferrer"><img className="card-img-top" src={Blog} alt="photo of pasta" style={{height: "250px" }} /></a>
+                            <a href="https://developer-blog-app.herokuapp.com/" target="_blank" rel="noreferrer"><img className="card-img-top" src={weatherStock} alt="photo of pasta" style={{height: "250px" }} /></a>
                             <div className="card-body">
-                                <h5 className="card-title">Developer Blog App</h5>
-                                <p className="card-text"><a href="https://github.com/sranson/Developer-Blog-App" target="_blank" rel="noreferrer">Github Repository</a></p>
-                                <p className="card-text"><a href="https://developer-blog-app.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></p>
-                                <p><a href={developerBlogScreenshot} target="_blank" rel="noreferrer">Screenshots</a></p>
+                                <h5 className="card-title">Weather App</h5>
+                                <p className="card-text"><a href="https://github.com/sranson/weather-app" target="_blank" rel="noreferrer">Github Repository</a></p>
+                                <p className="card-text"><a href="https://sranson.github.io/weather-app/" target="_blank" rel="noreferrer">Deployed Application</a></p>
+                                <p><a href={weatherSS} target="_blank" rel="noreferrer">Screenshots</a></p>
                             </div>    
                         </div>
-                    </section>  */}
+                    </section>
 
                     </section>
                 </body>
