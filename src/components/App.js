@@ -1,5 +1,4 @@
 import React from 'react';
-import reactDom from 'react-dom';
 import NavBar from './NavBar';
 import About from './About';
 import Projects from './Projects';

@@ -12,7 +12,7 @@ const About = () => {
                 <body>
                     <div>
                         <div className="customCenterContent" style={{paddingTop: "3%"}}>
-                            <img src={Salome} alt="Photo of Salome" className="circle" />
+                            <img src={Salome} alt="Salome" className="circle" />
                         </div>
                     </div>
 

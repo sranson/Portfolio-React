@@ -31,22 +31,22 @@ const Contact = () => {
                                     <form>
                                         <div className="row">
                                             <div className="mb-3 col-md-6">
-                                                <label for="name" className="form-label"></label>
+                                                <label htmlFor="name" className="form-label"></label>
                                                  <input type="name" className="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Name" />
                                             </div>
                                             <div className="mb-3 col-md-6">
-                                                 <label for="email" className="form-label"></label>
+                                                 <label htmlFor="email" className="form-label"></label>
                                                 <input type="email" className="form-control" id="inputEmail" placeholder="Email" />
                                             </div>
                                         </div>
 
                                         <div className="mb-3">
-                                            <label for="subject" className="form-label"></label>
+                                            <label htmlFor="subject" className="form-label"></label>
                                             <input type="subject" className="form-control" id="inputSubject" placeholder="Subject" />
                                         </div>
 
                                         <div className="mb-3">
-                                            <label for="MESSAGE" className="form-label"></label>
+                                            <label htmlFor="MESSAGE" className="form-label"></label>
                                             <textarea className="form-control" id="inputMessage" rows="3" placeholder="Message" />
                                         </div>     
 
