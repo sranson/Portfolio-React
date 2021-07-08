@@ -1,0 +1,18 @@
+.customSpacing {
+    margin-top: 5%;
+}
+
+.btnColor {
+    border: 2px solid #141622;
+    background-color: white;
+    color:#141622;
+}
+
+.spacing {
+    margin-bottom: 5%;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: #141622;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Assets/Styles/Contact.css';
-
+import resume from '../Assets/SalomeRansonResume.pdf';
 
 
 const Contact = () => {
@@ -8,7 +8,7 @@ const Contact = () => {
         <div>
               <main className="container">
                     <body>
-                        <section className="row customSpacing" id="contact">
+                        <section className={"row", "customSpacing"} id="contact">
                             <header>
                                 <h1>Contact Details</h1>
                             </header>
@@ -20,7 +20,7 @@ const Contact = () => {
                                     <h5><i className="fa fa-github fa-1x"></i><a href="https://github.com/sranson" target="_blank" className="linkStyle"> sranson</a></h5>
                                 </div>  
                                 <h5><i className="fa fa-linkedin-square fa-1x"></i> <a href="https://linkedin.com/in/salome-ranson-2021" target="_blank" className="linkStyle">Salome Ranson</a></h5>
-                                <h5><i className="fa fa-download"></i><a href="./resume.pdf" download> Download Resume</a></h5>
+                                <h5><i className="fa fa-download"></i><a href={resume} download> Download Resume</a></h5>
                             </div>
                         </section>
 
