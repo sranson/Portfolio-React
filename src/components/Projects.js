@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Food from '../Assets/Images/food.jpg';
+import recipesScreenshot from '../Assets/Images/Screenshots/recipes.png'
+import cohootsScreenshot from '../Assets/Images/Screenshots/CoHoots.png'
+import developerBlogScreenshot from '../Assets/Images/Screenshots/DeveloperBlog.png'
 import CoHoots from '../Assets/Images/CoHootsStock.jpg';
 import Blog from '../Assets/Images/blogPhoto.jpg';
 import '../Assets/Styles/Projects.css';
@@ -18,12 +21,12 @@ const Projects = () => {
 
                     <section className="col-md-4 col-lg-4 d-flex justify-content-center zoom">
                         <div className="card cardSize">
-                            <Link to="https://sranson.github.io/recipe-finder/" target="_blank"><img className="card-img-top" src={Food} alt="photo of pasta" /></Link>
+                            <a href="https://sranson.github.io/recipe-finder/" target="_blank"><img className="card-img-top" src={Food} alt="photo of pasta" /></a>
                             <div className="card-body">
                                 <h5 className="card-title">Recipe Finder</h5>
-                                <p className="card-text"><Link to="https://github.com/sranson/recipe-finder" target="_blank">Github Repository</Link></p>
-                                <p className="card-text"><Link to="https://sranson.github.io/recipe-finder/" target="_blank">Deployed Application</Link></p>
-                                <p><Link to="#" target="_blank">Screenshots</Link></p>
+                                <p className="card-text"><a href="https://github.com/sranson/recipe-finder" target="_blank">Github Repository</a></p>
+                                <p className="card-text"><a href="https://sranson.github.io/recipe-finder/" target="_blank">Deployed Application</a></p>
+                                <p><a href={recipesScreenshot} target="_blank">Screenshots</a></p>
                             </div>    
                         </div>
                     </section>
@@ -31,12 +34,12 @@ const Projects = () => {
 
                     <section className="col-md-4 col-lg-4 d-flex justify-content-center zoom">
                         <div className="card cardSize">
-                            <Link to="https://cohoots.herokuapp.com/" target="_blank"><img className="card-img-top" src={CoHoots} alt="photo of pasta" style={{height: "250px" }} /></Link>
+                            <a href="https://cohoots.herokuapp.com/" target="_blank"><img className="card-img" src={CoHoots} alt="photo of pasta" style={{height: "250px" }} /></a>
                             <div className="card-body">
                                 <h5 className="card-title">CoHoots</h5>
-                                <p className="card-text"><Link to="https://github.com/klucas72/CoHoots" target="_blank">Github Repository</Link></p>
-                                <p className="card-text"><Link to="https://cohoots.herokuapp.com/" target="_blank">Deployed Application</Link></p>
-                                <p><Link to="#" target="_blank">Screenshots</Link></p>
+                                <p className="card-text"><a href="https://github.com/klucas72/CoHoots" target="_blank">Github Repository</a></p>
+                                <p className="card-text"><a href="https://cohoots.herokuapp.com/" target="_blank">Deployed Application</a></p>
+                                <p><a href={cohootsScreenshot} target="_blank">Screenshots</a></p>
                             </div>    
                         </div>
                     </section>
@@ -44,12 +47,12 @@ const Projects = () => {
 
                     <section className="col-md-4 col-lg-4 d-flex justify-content-center zoom">
                         <div className="card cardSize">
-                            <Link to="https://developer-blog-app.herokuapp.com/" target="_blank"><img className="card-img-top" src={Blog} alt="photo of pasta" style={{height: "250px" }} /></Link>
+                            <a href="https://developer-blog-app.herokuapp.com/" target="_blank"><img className="card-img-top" src={Blog} alt="photo of pasta" style={{height: "250px" }} /></a>
                             <div className="card-body">
-                                <h5 className="card-title">CoHoots</h5>
-                                <p className="card-text"><Link to="https://github.com/sranson/Developer-Blog-App" target="_blank">Github Repository</Link></p>
-                                <p className="card-text"><Link to="https://developer-blog-app.herokuapp.com/" target="_blank">Deployed Application</Link></p>
-                                <p><Link to="#" target="_blank">Screenshots</Link></p>
+                                <h5 className="card-title">Developer Blog App</h5>
+                                <p className="card-text"><a href="https://github.com/sranson/Developer-Blog-App" target="_blank">Github Repository</a></p>
+                                <p className="card-text"><a href="https://developer-blog-app.herokuapp.com/" target="_blank">Deployed Application</a></p>
+                                <p><a href={developerBlogScreenshot} target="_blank">Screenshots</a></p>
                             </div>    
                         </div>
                     </section>
