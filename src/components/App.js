@@ -13,15 +13,15 @@ const App = () => {
                 <NavBar />
                 <div>
                     <Switch>
-                        <Route exact path="/">
+                        <Router exact path="/">
                             <About />
-                        </Route>
-                        <Route exact path="/projects">
+                        </Router>
+                        <Router exact path="/projects">
                             <Projects />
-                        </Route>
-                        <Route exact path="/contact">
+                        </Router>
+                        <Router exact path="/contact">
                             <Contact />
-                        </Route>
+                        </Router>
                     </Switch>
                 </div>
             </div>
