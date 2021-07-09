@@ -25,7 +25,7 @@ const About = () => {
                     </div>
 
                     <div className="customCenterContent" style={{paddingBottom: "3%"}}>
-                        <h5>Feel free to take a look at my latest projects on the <em><a href="/projects">My Work</a></em> Page.</h5>
+                        <h5>Feel free to take a look at my latest projects on the <em><a href="#/projects">My Work</a></em> Page.</h5>
                     </div>
                 </body>
             </main>

@@ -90,7 +90,7 @@ const Projects = () => {
 
                     <section className="col-md-4 col-lg-4 d-flex justify-content-center zoom">
                         <div className="card cardSize">
-                            <a href="https://developer-blog-app.herokuapp.com/" target="_blank" rel="noreferrer"><img className="card-img-top" src={weatherStock} alt="photo of pasta" style={{height: "250px" }} /></a>
+                            <a href="https://sranson.github.io/weather-app/" target="_blank" rel="noreferrer"><img className="card-img-top" src={weatherStock} alt="photo of pasta" style={{height: "250px" }} /></a>
                             <div className="card-body">
                                 <h5 className="card-title">Weather App</h5>
                                 <p className="card-text"><a href="https://github.com/sranson/weather-app" target="_blank" rel="noreferrer">Github Repository</a></p>
